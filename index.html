@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <!-- LINK CSS -->
+   <link rel="stylesheet" href="css/mobile/index.css" media="only screen and (max-width: 768px)">
+   <link rel="stylesheet" href="css/desktop/index.css" media="only screen and (min-width: 769px)">
+</head>
+<body>
+    <header>
+        <figure class="header__figure">
+            <img class="img--large"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/2560px-International_Pok%C3%A9mon_logo.svg.png" alt="logo-pkm">
+        </figure>
+    </header>
+    <main>  
+        <section class="section--1">
+            <h1 class="section--1__title">
+                POKEDEX
+            </h1>
+            <form action="#" class="section--1__form">
+                <label class="section--1__form__name" for="name">Escribe el pokemon que quieres buscar!
+                    <input type="text" name="name" id="name" required placeholder="Escribe aqui...">
+                </label>
+                <button class="section--1__form__button" type="button" id="pkmButton">
+                    Buscar
+                </button>
+            </form>
+            <figure class="section--1__pkmImg">
+                <img class="img--large" src="" alt="img" id="outputImg">
+            </figure>
+            <p class="section--1__pkmName" id="outputName">
+
+            </p>
+            <div class="pkm--type">
+                <h2 class="pkm--type__title">
+                    TIPO:
+                </h2>
+                <p class="pkm--type__p" id="output-type-name" >
+
+                </p>
+            </div>
+            <div class="article--1__pkmAtt">
+                <h2 class="article--1__pkmAtt__title">
+                    ATRIBUTOS:
+                </h2>
+                <div class="article--1__pkmAtt__div">
+                    <ul class="article--1__pkmAtt__ul">
+                        <li id="outputStats-title--1">
+    
+                        </li>
+                        <li id="outputStats-content--1">
+    
+                        </li>
+                    </ul>
+                    <ul class="article--1__pkmAtt__ul">
+                        <li id="outputStats-title--2">
+    
+                        </li>
+                        <li id="outputStats-content--2">
+    
+                        </li>
+                    </ul>
+                    <ul class="article--1__pkmAtt__ul">
+                        <li id="outputStats-title--3">
+    
+                        </li>
+                        <li id="outputStats-content--3">
+    
+                        </li>
+                    </ul>
+                    <ul class="article--1__pkmAtt__ul">
+                        <li id="outputStats-title--4">
+    
+                        </li>
+                        <li id="outputStats-content--4">
+    
+                        </li>
+                    </ul>
+                    <ul class="article--1__pkmAtt__ul">
+                        <li id="outputStats-title--5">
+    
+                        </li>
+                        <li id="outputStats-content--5">
+    
+                        </li>
+                    </ul>
+                    <ul class="article--1__pkmAtt__ul">
+                        <li id="outputStats-title--6">
+    
+                        </li>
+                        <li id="outputStats-content--6">
+    
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+   
+    <script src="js/main.js"></script>
+</body>
+<footer>
+    
+</footer>
+</html>
